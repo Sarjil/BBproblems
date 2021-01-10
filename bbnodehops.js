@@ -70,7 +70,7 @@ class HopCombo {
             memo[r+"x"+c+'x'+h] = total
             return total
         }
-        console.log(memo)
+        // console.log(memo)
         return dfs(start, hops, 0, 0, )
      
     }
@@ -85,7 +85,7 @@ class HopCombo {
             cur = cur.right
             length++
         }
-        console.log(length)
+        // console.log(length)
         let arr = []
         for (let i = 0; i < length; i++) {
             arr.push([])
@@ -208,7 +208,7 @@ let d = a.memoizationApproach(a.start, 12)
 let dpro = new Date().getTime()
 let e = a.dpApproach(a.start, 12)
 let epro = new Date().getTime()
-console.log("dfs 4**hops", b, bpro-apro)
-console.log("unique dfs 4**hops", c, cpro-bpro)
-console.log("memoization nodes*hops", d, dpro - cpro)
-console.log("dp nodes*hops", e, epro - dpro)
+console.log("dfs", `| answer: ${b} |`, `runtime: ${bpro-apro} ms`)
+console.log("unique dfs", `| answer: ${c} |`, `runtime: ${cpro-bpro} ms`)
+console.log("memoization", `| answer: ${d} |`, `runtime: ${dpro-cpro} ms`)
+console.log("dp", `| answer: ${e} |`, `runtime: ${epro-dpro} ms`)

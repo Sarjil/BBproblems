@@ -55,6 +55,7 @@ class Exchange {
 
     updateOne(top, bottom, rate) {
         this.addToStartCountry(top,bottom,rate)
+        console.log(`One ${top} is now worth ${rate} ${bottom}`)
         this.deleteCacheValue(top+bottom)
         this.deleteCacheValue(bottom+top)
     }
