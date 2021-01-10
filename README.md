@@ -5,7 +5,7 @@
  I solved the problem four different ways and used date to compare the speed of each. The four approaches are a basic dfs a dfs that only counts unique values, a memoization, and a dynamic programming matrix approach. The basic dfs approach is O(4^hops) time and O(hops) space.
   The memo and dp approaches both end up with O(hops * nodes) time complexity and O(hops * nodes) space complexity.
   
-  !(bbnodehops.png)
+  ![bbnodehops.png](bbnodehops.png)
   
   
 2 BBcurrencyexchange
