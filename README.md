@@ -10,6 +10,6 @@
   
 2 BBcurrencyexchange
   
-  I built upon what I talked about and implemented the cache. There is an alternative version of the cache that could be implemented that would save the path it took last time and only clear the cache when a new currency trade route was added. As of now whenever a direct transfer is updated my cache will remove the shortcuts that used that direct transfer as part of their paths.
+  I built upon what I talked about and implemented the cache. There is an alternative version of the cache that could be implemented that would save the path it took last time and only clear the cache when a new currency trade route was added or deleted. As of now whenever a direct transfer is updated my cache will remove the shortcuts that used that direct transfer as part of their paths.
   
   ![bbcurrencyexchange.png](bbcurrencyexchange.png)
